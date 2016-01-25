@@ -6,6 +6,7 @@ MAINTAINER Kai Arulkumaran <design@kaixhin.com>
 RUN apt-get update && apt-get install -y \
   curl \
   ipython3 \
+  wget\
   python-zmq
 
 # Install cuDNN
